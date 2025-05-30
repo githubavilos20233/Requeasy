@@ -46,7 +46,7 @@ function Homepage() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div className="container">
+        <div className="container-fluid">
           <a
             className="navbar-brand d-flex align-items-center gap-2"
             href="#home"

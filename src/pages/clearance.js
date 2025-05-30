@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "../assets/css/clearance.css";
 
 function Clearance() {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     fullName: "",
     address: "",
@@ -62,6 +64,10 @@ function Clearance() {
 
   return (
     <div className="container my-5">
+      <button
+        className="btn btn-secondary mb-3"
+        onClick={() => navigate("/")}
+      ></button>
       <h2>Barangay Clearance Request</h2>
       <form onSubmit={handleSubmit} noValidate>
         <div className="mb-3">

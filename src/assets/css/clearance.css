@@ -1,0 +1,17 @@
+/* clearance.css */
+.container {
+  max-width: 600px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+button[type="submit"] {
+  width: 100%;
+}
+
+.invalid-feedback {
+  font-size: 0.9rem;
+}

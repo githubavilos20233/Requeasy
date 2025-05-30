@@ -23,6 +23,26 @@ body {
 .navbar {
   box-shadow: 0 2px 4px rgba(197, 7, 7, 0.3);
 }
+.navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Ensure navbar items are right-aligned */
+.navbar .navbar-nav {
+  margin-left: auto;
+}
+
+/* Ensure the logo is circular and aligned */
+.navbar-brand img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
 
 /* Sections styling */
 section {
