@@ -1,0 +1,66 @@
+/* Set background image fixed on body */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url("../images/brgy-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* makes the background float */
+  color: #fff;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Padding so content is below fixed navbar */
+body {
+  padding-top: 70px;
+}
+
+/* Navbar shadow */
+.navbar {
+  box-shadow: 0 2px 4px rgba(197, 7, 7, 0.3);
+}
+
+/* Sections styling */
+section {
+  scroll-margin-top: 80px; /* Adjust this to your navbar height */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Optional: semi-transparent background for readability */
+  margin: 40px auto;
+  max-width: 900px;
+  padding: 40px 20px;
+  color: #fff;
+  border-radius: 10px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Lists inside sections */
+ul.list-unstyled li {
+  padding: 5px 0;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Footer */
+.footer {
+  background-color: #222 !important;
+  color: #ccc !important;
+  text-shadow: none;
+}
+
+/* Navbar links cursor */
+.nav-link {
+  cursor: pointer;
+}
+.brgydesc {
+  text-align: justify;
+  text-indent: 2em;
+  line-height: 1.6;
+}
