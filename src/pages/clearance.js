@@ -64,10 +64,10 @@ function Clearance() {
 
   return (
     <div className="container my-5">
-      <button
-        className="btn btn-secondary mb-3"
-        onClick={() => navigate("/")}
-      ></button>
+      <button className="btn btn-secondary mb-3" onClick={() => navigate("/")}>
+        Go Home
+      </button>
+
       <h2>Barangay Clearance Request</h2>
       <form onSubmit={handleSubmit} noValidate>
         <div className="mb-3">
